@@ -1,6 +1,6 @@
 
 # REQUIREMENTS
-                                                   Automatic street light  control using 8051
+                                                   Automatic parking system control using 8051
 
 ## Introduction
 
