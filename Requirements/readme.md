@@ -48,6 +48,10 @@ the relay is turned on as well as whenever the relay is turned off.
 -  Wide spectral response.
 -  Wide ambient temperature range.
 
+# State of art/Research
+
+ ![](https://www.projectsof8051.com/project-photos/5126-iot-vehicle-fuel-theft-detection-system-using-arduino-21.jpg)
+ 
   
 
 
