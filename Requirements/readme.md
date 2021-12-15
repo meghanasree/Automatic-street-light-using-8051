@@ -1,91 +1,94 @@
 
 # REQUIREMENTS
-                                                    CAFETERIA BILLING APPLICATION
+                                                   Automatic street light  control using 8051
 
 ## Introduction
 
-To develop a project that helps us to effectively manage the Cafeteria. This reduces the burden on the owner as the paperwork or calculation work is reduce and it saves time.
+Generally, in many areas, street light control is done manually. That means, some person turns on the light at evening time and turns them off in the morning time. However, there are few drawbacks to this manual method of controlling the street light. Accidents may occur if the person forgets to turn on the street lights. Also if the street lights are not turned off in the morning then it causes electricity wastage. Also if we implement a time-based street light controlling system, then it will cause a problem since the evening start time is different in winter and summer. This project of automatic street light control can be used to overcome all these drawbacks.
+
+The street lights are turned on at night time because the light intensity is low at night. And the street lights are turned on in the daytime since the light intensity is sufficient in the daytime.
+
+## Description of the Automatic Street Light control project:
+This is one of the very useful Electronics Mini Projects. LDR, microcontroller, buzzer, and relay are the main components of an automatic street light controller circuit.
+
+“Light-dependent resistor” sensor used in this project. LDR is used to sense the intensity of light. The output of the LDR sensor is in the format of resistance. The resistance of LDR is inversely proportional to the light falling on the LDR. That means the resistance decreases whenever the light intensity is increased.
+
+We have used an 89s51 microcontroller in this project. 89s51 is an 8051 series microcontroller. The output of the LDR is given to the comparator circuit. This comparator has two inputs. The first input is from LDR and the second input is from the Potentiometer. This Potentiometer is used to decide the threshold level of the light intensity at which the street light should be turned on. In other words, we can say that the sensitivity of the circuit can be adjusted using this Potentiometer.
+
+The output of the circuit is given to the relay. Any AC or DC device can be turned on using this relay. In this project, the relay is used to turn on and off the street light. Also, we have used an LCD display which displays the message if the intensity is low or high. Another output device in this project is a Buzzer. This Buzzer will be turned on whenever there is a transition in the relay. It means the buzzer will be turned on for a couple of seconds whenever the relay is turned on as well as whenever the relay is turned off.
                                      
-## Research
 
-Cafeteria Billing Application will be able to provide fast services to their customers by using their management system. However it can  be updated by adding or deleting the items and able to perform many more opeartions.
-This requires knowledge of C and C++ programming and basic idea to handle the application.
 
-## Features
+## Features of LDR are as follows:
 
- - Update various meals, breakfast, snacks and beverages whenever needed.  
- - Helps to manage the record of all transactions and hence provide greater flexibility and reusability.
- - Saves time to take order and to perform calculation.
- - Eases the work of the waiter in recording the food orders.
- - Reduces paper work & the delay in bill generation.
- - This application transmit Invoice Securely.
+ 
+-  High reliability.
+-  Light weight.
+-  Wide spectral response.
+-  Wide ambient temperature range.
 
   
-## Defining Our System
-
- - Provides cashless and paperless transactions.
- - Provides fast and efficient services.
- - Option for multiple caters to operate in a closed environment.
- - Different types of report can be taken with respect to customer consumption and with respect to daily sales.
 
 
-## SWOT Analysis 
 
-![swot](https://user-images.githubusercontent.com/94235122/143300442-533e40d1-f5f4-4805-bf4c-30ff98d96e39.png)
+# SWOT ANALYSIS
+ 
+ # Strength
 
-• Strengths:
-  No chance of errors in calculations as calculations will perform automatically according to order rate.
+ - Increase road safety
 
-• Weaknesses:
- Sometimes it can be failed if some error occurred.
+ - Improves traffic flow
 
-• Opportunities:
- Can be implemented in any type of stores, restaurants, canteens etc.
+# Weakness
 
-• Threats:
- Functionality is basic and get replaced by better algorithms.
+ - Take More time
 
-# 4W's and 1H's
+# Opportunities
+ - Business strategy: You will better understand how a smart street lighting solution enables you to successfully meet your business outcomes
 
-## Who
-It can be used by the owner of the mess to update  and to use it freely
+ - Technology decisions: You will learn how a smart street lighting solution works to deliver IT and business value
 
+# Threats
 
-## What
-An user friendly application for used to check update in mess daily
+- The absence of those traffic lights and even others that are not functioning properly pose danger to pedestrians, drivers and motorbike riders
 
+# 4W's and 1H
 
-## When
+# Who
 
-As the customers in their recess time use mess inside the company for their food consumption they will need a management system to check today's update
+- 
 
+# What
 
-## Where
-Used in all mess centers running inside a company for owner's benefit
+ - Implementation of Automatic street light control using 8051 Microcontroller
+ 
+# Where
 
+ - Ambulances
 
-## How
-It can be used in a mobile app easily or can login in a PC. 
+ - Fire extinguishing vehicles
 
+ - Police vans in emergency
 
-# Detail Requirements
+ # How
+ 
+ - This application is implemented using C programing language
+ 
+ # High level requirements
+ 
+ - Reduce waiting time in traffic.
+ 
+- Avoid accidents.
+ 
+ # Low level requirements
+ 
+ - To study on equipments and tools used and their specifications.
 
-  ## 1] High level requirements
+ - To study on the features of microprocessor to more focus in respect of working- This application is implemented using C programing language.
 
-| ID             | Description                                                           |
-| ----------------- | ------------------------------------------------------------------ |
-| HLR1 | User should able to add new records.   |
-| HLR2 | User should able to edit the particular item from saved list.|
-| HLR3 | User should able to search the particular item from saved list.|
-| HLR4 | User should able to delete the particular item from saved list.|
-| HLR5 | Application should able to do the all calculations that are required to generate bill amount.|
+ - Writing the program to control the traffic system.
 
-  ## 2] Low level requirements
+ - Connecting IR sensors and GPIO pins.
 
-| ID             | Description                                                           |
-| ----------------- | ------------------------------------------------------------------ |
-| LLR1 | Return the exact final bill amount.  |
-| LLR2 | Application should work without error.  | 
-
-
+ - Power on the system and testing the functionality of it placing some obstacles in front of the IR sensors observing the LED glow.
 
