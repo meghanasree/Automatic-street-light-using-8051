@@ -88,7 +88,7 @@ the relay is turned on as well as whenever the relay is turned off.
 
 # Who
 
-- 
+- we are used care are stacked vertically to limit space
 
 # What
 
