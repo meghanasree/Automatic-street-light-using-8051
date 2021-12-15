@@ -16,9 +16,9 @@ The street lights are turned on at night time because the light intensity is low
 
 sufficient in the daytime.
 
-## Description of the Automatic Street Light control project:
+## Description of the parking system control project:
 
-This is one of the very useful Project. LDR, microcontroller, buzzer, and relay are the main components of an automatic street light controller circuit.
+This is one of the very useful Project. LDR, microcontroller, buzzer, and relay are the main components of an automatic parking system controller circuit.
 
 “Light-dependent resistor” sensor used in this project. LDR is used to sense the intensity of light. The output of the LDR sensor is in the format of resistance.
 
@@ -64,21 +64,21 @@ the relay is turned on as well as whenever the relay is turned off.
 
  - Improves traffic flow
  
- - This project has the main application in street light control.
+ - This project has the main application in parking system control.
 
 # Weakness
 
- - The automatic street light system requires a higher initial investment in comparison to conventional street lights.
+ - The automatic parking system requires a higher initial investment in comparison to conventional parking.
 
- - Risk of theft of the automatic street light system is relatively higher since they are non-wired & are much expensive.
+ - Risk of theft of the automatic parking system is relatively higher since they are non-wired & are much expensive.
 
- - Rechargeable batteries of the automatic street light system are required to be replaced a few times.
+ - Rechargeable batteries of the automatic parking system are required to be replaced a few times.
 
 # Opportunities
 
- - Business strategy: You will better understand how a smart street lighting solution enables you to successfully meet your business outcomes
+ - Business strategy: You will better understand how a automatic parking system  enables you to successfully meet your business outcomes
 
- - Technology decisions: You will learn how a smart street lighting solution works to deliver IT and business value
+ - Technology decisions: You will learn how a smart parking system works to deliver IT and business value
 
 # Threats
 
@@ -88,13 +88,11 @@ the relay is turned on as well as whenever the relay is turned off.
 
 # Who
 
-- Government Units & Municipalities – Government organizations can save large sums of money by using an automatic solar street light system for outdoor lighting.
-
- It is forecasted that we will have 359 million street lights by 2026.
+- 
 
 # What
 
- - Implementation of Automatic street light control using 8051 Microcontroller
+ - Implementation of Automatic parking control using 8051 Microcontroller
  
 # Where
 
@@ -103,6 +101,7 @@ the relay is turned on as well as whenever the relay is turned off.
  - Fire extinguishing vehicles
 
  - Police vans in emergency
+ - shoppingmalls
 
  # How
  
@@ -110,11 +109,11 @@ the relay is turned on as well as whenever the relay is turned off.
  
  # High level requirements
  
- - Along Roads & Highways – High-quality automatic street light systems can enhance night-time visibility on rural roads, main roads & highways.
+ - Along Roads & Highways – High-quality automatic parking systems can enhance high traffic main roads & highways.
  
-  These are also very easy to  install & are affordably priced.
+  These are also very easy to  maintain.
   
-- Schools & Universities – Automatic solar street light system is an excellent choice for schools, colleges & universities.
+- Schools & Universities – Automatic parking system is an excellent choice for schools, colleges & universities.
 
  With plenty of accessible areas, ranging from bus shelters to parking lots institutions can install them throughout the campus.
  
